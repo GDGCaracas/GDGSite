@@ -31,6 +31,19 @@
 .clear { clear: both; }
 
 .oh { overflow: hidden; }
+.film-background {
+    background-image: url('../upload/about_us_intro.jpg');
+    background-repeat: no-repeat;
+}
+.videowrapper {
+    float: none;
+    clear: both;
+    width: 100%;
+    position: relative;
+    padding-bottom: 68.25%;
+    padding-top: 25px;
+    height: 0;
+}
 .relative { position: relative; }
 .section-wrap { padding: 100px 0; }
 .color-white { color: #fff !important; }
@@ -465,7 +478,7 @@ nav ul li.active > a {
 }
 
 .masonry-item {
-  margin-top: 6px; 
+  margin-top: 6px;
   width: 33%;
   height: auto;
   float: left;
@@ -701,7 +714,7 @@ nav ul li.active > a {
   margin-top: 30px;
 }
 
-.progress-solid.meter { 
+.progress-solid.meter {
   height: 25px;
   border-radius: 3px;
   position: relative;
@@ -836,8 +849,8 @@ nav ul li.active > a {
   -moz-border-radius: 50%;
   border-radius: 50%;
   content: '';
-  -webkit-box-sizing: content-box; 
-  -moz-box-sizing: content-box; 
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
   box-sizing: content-box;
 }
 
